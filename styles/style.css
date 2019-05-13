@@ -32,10 +32,12 @@ a:hover {
 
 input {
   border: 2px solid cornflowerblue;
+  margin: 5px;
   padding: 0 5px;
   width: 500px;
   font-weight: bold;
   font-size: 3em;
+  text-align: right;
   
 }
 
@@ -59,7 +61,8 @@ form #action {
   background-color: #ff9999;
 }
 
-.results {
+#results {
+  text-align: right;
   border: 1px solid cornflowerblue;
   padding: 10px;
   font-size: 3em;
