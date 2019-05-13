@@ -12,18 +12,19 @@
 <body>
   <div class="container">
     <form action="#">
-      <input type="text" name="" id="number">
+      <input type="number" name="first" id="first">
+      <input type="number" name="first" id="second">
       <span class="operations">
-        <a href="#">&#43;</a>
-        <a href="#">&#8722;</a>
-        <a href="#">&#215;</a>
-        <a href="#">&#247;</a>
-        <a href="#">n&#178;</a>
-        <a href="#">&#8730;</a>
+        <a href="#" onclick="sum()">&#43;</a>
+        <a href="#" onclick="minus()">&#8722;</a>
+        <a href="#" onclick="multi()">&#215;</a>
+        <a href="#" onclick="divi()">&#247;</a>
+        <a href="#" onclick="power()">m<sup>n</sup></a>
+        <a href="#" onclick="squareroot()"><sup>n</sup>&#8730;m</a>
       </span>
-      <a href="#" id="action">&#61;</a>
+      <!-- <a href="#" id="action">&#61;</a> -->
     </form>
-    <div class="results">dummy text</div>
+    <div id="results">dummy text</div>
   </div>
   <script src="./js/calc.js"></script>
 </body>
