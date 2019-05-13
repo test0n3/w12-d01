@@ -59,7 +59,7 @@ form #action {
   background-color: #ff9999;
 }
 
-.results {
+#results {
   border: 1px solid cornflowerblue;
   padding: 10px;
   font-size: 3em;
