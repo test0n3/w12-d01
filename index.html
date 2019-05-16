@@ -11,22 +11,29 @@
 
 <body>
   <div class="container">
-    <form action="#">
+    <form action="#" id="calculator">
       <input type="number" name="first" id="first">
       <input type="number" name="first" id="second">
       <span class="operations">
-        <a href="#" onclick="sum()">&#43;</a>
-        <a href="#" onclick="minus()">&#8722;</a>
-        <a href="#" onclick="multi()">&#215;</a>
-        <a href="#" onclick="divi()">&#247;</a>
-        <a href="#" onclick="power()">m<sup>n</sup></a>
-        <a href="#" onclick="squareroot()"><sup>n</sup>&#8730;m</a>
+        <!-- <a href="#" id="sum" onclick="sum()">&#43;</a> -->
+        <a href="#" id="sum">&#43;</a>
+        <!-- <a href="#" id="subs" onclick="minus()">&#8722;</a> -->
+        <a href="#" id="subs">&#8722;</a>
+        <!-- <a href="#" id="multi" onclick="multi()">&#215;</a> -->
+        <a href="#" id="multi">&#215;</a>
+        <!-- <a href="#" id="div" onclick="divi()">&#247;</a> -->
+        <a href="#" id="div">&#247;</a>
+        <!-- <a href="#" id="power" onclick="power()">m<sup>n</sup></a> -->
+        <a href="#" id="power">m<sup>n</sup></a>
+        <!-- <a href="#" id="squ" onclick="squareroot()"><sup>n</sup>&#8730;m</a> -->
+        <a href="#" id="squ"><sup>n</sup>&#8730;m</a>
       </span>
       <!-- <a href="#" id="action">&#61;</a> -->
     </form>
-    <div id="results">dummy text</div>
+    <div id="results">0</div>
   </div>
-  <script src="./js/calc.js"></script>
+  <!-- <script src="./js/calc.js"></script> -->
+  <script src="./js/calc1.js"></script>
 </body>
 
 </html>

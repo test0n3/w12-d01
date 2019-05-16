@@ -1,4 +1,5 @@
-
+// first try - simple try
+// uncomment the HTML lines required.
 
 const sum = () => {
   const $first = document.getElementById("first").value;
